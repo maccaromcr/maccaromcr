@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Portafolio MACCARO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/sobremi.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/curriculum.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+</head>
+<body>
+    <!--Encabezado para el menu -->
+    <div class="contenido_header" >
+
+        <header>
+            <div class="logo">
+                <a href="#">Mauricio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                <li><a href="#inicio" onclick="seleccionar()" >INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()" >SOBRE_MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()" >SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()" >CURRICULUM</a></li>
+                <li><a href="#portafolio" onclick="seleccionar()" >PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()" >CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarocultarmenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!--Aqui va el inicio-->
+    <section id="inicio" class="inicio">
+
+        <div class="contenido_banner">
+            <div class="contenedor_imagen">
+                <img src="img/mcr.png" alt="">
+            </div>
+            <h1>Mauricio Castellano</h1>
+            <h2>Productor Multimedia - Fullstack Developer jr.  </h2>
+            <div class="redes">
+                <a href="https://github.com/maccaromcr"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mauricio-castellano-rocha-92951788/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/AlquimistaCaste"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/mauricio.castellanosrocha/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/alquimista_castellano/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!--En esta parte va lo que soy-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido_seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Hello, how are you?. Am Mauricio Castellano R.</span>
+                I am a multimedia producer in practice, I am also training as a developer in various fields. Before this I worked as a Chef. I focus on improving my applications and new processes as a backend and frontend developer. My level of English is basic, although I practice every day to be better in this language. I am from Colombia.
+
+               <p><span>Hola, ¿como estan?. Soy Mauricio Castellano R.</span>Soy productor multimedia en la práctica, también me estoy formando como desarrollador en varios campos. Antes de esto trabajé como Chef. Me enfoco en mejorar mis aplicaciones y nuevos procesos como desarrollador backend y frontend. Mi nivel de inglés es básico, aunque practico cada día para ser mejor en este idioma. Soy de Colombia.</p> 
+            </p>
+            <div class="fila">
+                <!--Datos Personales-->
+                <div class="col">
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            20/08/1988
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            3125028685
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            likansmc@gmail.com / castellano_03@misena.edu.co
+                        </li>
+                        <li>
+                            <strong>Ubicación</strong>
+                            bogotá, Colombia
+                        </li><li>
+                            <strong>Ocupación</strong>
+                            <span>Freelance</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+
+                    <h3>INTERESES</h3>
+                    <div class="contenedor_intereses">
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>Cocinar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>Ilustración</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-tents"></i>
+                            <span>Acampar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Video Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Lectura</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>Tecnología</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar cv <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+     <!--mis skills-->   
+    <section class="skills" id="skills">
+        <div class="contenido_seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!--habilidades tecnicas-->
+                <div class="col">
+                    <h3>technical skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra_skills">
+                            <div class="progreso javascript">
+                                <span>26%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="barra_skills">
+                            <div class="progreso htmlcss">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Sql</span>
+                        <div class="barra_skills">
+                            <div class="progreso sql">
+                                <span>54%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra_skills">
+                            <div class="progreso java">
+                                <span>38%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Phyton</span>
+                        <div class="barra_skills">
+                            <div class="progreso phyton">
+                                <span>12%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Ilustraitor</span>
+                        <div class="barra_skills">
+                            <div class="progreso ilustraitor">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Coreldraw</span>
+                        <div class="barra_skills">
+                            <div class="progreso coreldraw">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra_skills">
+                            <div class="progreso photoshop">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Adobe XD</span>
+                        <div class="barra_skills">
+                            <div class="progreso adobexd">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Animate</span>
+                        <div class="barra_skills">
+                            <div class="progreso animate">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Blender</span>
+                        <div class="barra_skills">
+                            <div class="progreso blender">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra_skills">
+                            <div class="progreso git">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Clip studio</span>
+                        <div class="barra_skills">
+                            <div class="progreso clipstudio">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra_skills">
+                            <div class="progreso wordpress">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    
+                </div>
+
+                <!--habilidades profesionales-->
+                <div class="col">
+                    <h3>Professional skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra_skills">
+                            <div class="progreso comunicacion">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra_skills">
+                            <div class="progreso trabajo">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra_skills">
+                            <div class="progreso creatividad">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra_skills">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Proyect manager</span>
+                        <div class="barra_skills">
+                            <div class="progreso proyect">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    <div class="skill">
+                        <span>Cumplimiento</span>
+                        <div class="barra_skills">
+                            <div class="progreso cumplimiento">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div><!--termina skills-->
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Aqui coloco mi curriculum vitae-->
+
+    <section id="curriculum" class="curriculum">
+        <h2>CURRICULUM</h2>
+                 <div class="fila">
+                    <!--En este espacio va la formacion academica-->
+                      <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Producción Multimedia</h4>
+                             <span class="instituto">SENA</span>
+                             <span class="fecha"> 2018 - 2023</span>
+                             <p>En esta formacion aprendi lo que fue el manejo y desarrollo de audio-visuales, Ilustración, desarrollo corporativo, Basico de FrontEnd,colorimetria aplicada a las artes graficas impresas,entre otras habilidades.</p>
+                                 <div class="conectori">
+                                    <div class="circuloi"></div>
+                                 </div>
+                         </div><!-- Aqui termina la seccion del item-->
+                         <div class="item izq">
+                            <h4>Developer BackEnd</h4>
+                             <span class="instituto">Alura Latam - Oracle </span>
+                             <span class="fecha"> 2022 - 2023</span>
+                             <p>En esta Formacion aprendi logica de programacion a desarrollar en lenguajes como lo son java, phyton (orienta en Data Science basico) ruby y angular.</p>
+                                 <div class="conectori">
+                                    <div class="circuloi"></div>
+                                 </div>
+                         </div><!-- Aqui termina la seccion del item-->
+                         <div class="item izq">
+                            <h4>Desarrollo Web Full stack (Intermedio)</h4>
+                             <span class="instituto">Univerdad Distrital (francisco jose de caldas) </span>
+                             <span class="fecha"> Febrero-2023 - Agosto-2023</span>
+                             <p>Aqui termine de profundizar temas como lo son el manejo de git y github,Bases de datos,fundamentos de dseño en UX / IU (Experiencia de usuario /interfaces de usuario),arquitectura del Software, con estos conceptos practicos termine de formar y moldear mis capacidades en desarrollo digital.  </p>
+                                 <div class="conectori">
+                                    <div class="circuloi"></div>
+                                 </div>
+                         </div><!-- Aqui termina la seccion del item-->
+                      </div>
+
+                      <!--en esta espacio va la emperiencia laboral-->
+                      <div class="col derecha">
+                        <h3>Experiencia laboral</h3>
+                                <div class="item der">
+                                    <h4>cargo desempeñado</h4>
+                                     <span class="instituto">empresa donde se laboro</span>
+                                     <span class="fecha">año en el que se trabajo</span>
+                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, qui? Reprehenderit atque quas, sunt eum illo distinctio voluptas delectus aut numquam consequuntur deserunt molestiae omnis voluptatibus nemo obcaecati temporibus mollitia.</p>
+                                         <div class="conectord">
+                                            <div class="circulod"></div>
+                                         </div>
+                                 </div><!-- Aqui termina la seccion del item-->
+                                 <div class="item der">
+                                    <h4>cargo desempeñado</h4>
+                                     <span class="instituto">empresa donde se laboro</span>
+                                     <span class="fecha">año en el que se laboro</span>
+                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, qui? Reprehenderit atque quas, sunt eum illo distinctio voluptas delectus aut numquam consequuntur deserunt molestiae omnis voluptatibus nemo obcaecati temporibus mollitia.</p>
+                                         <div class="conectord">
+                                            <div class="circulod"></div>
+                                         </div>
+                                 </div><!-- Aqui termina la seccion del item-->
+                                 <div class="item der">
+                                    <h4>cargo desempeñado</h4>
+                                     <span class="instituto">empresa donde se laboro</span>
+                                     <span class="fecha">fecha en la que se laboro</span>
+                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, qui? Reprehenderit atque quas, sunt eum illo distinctio voluptas delectus aut numquam consequuntur deserunt molestiae omnis voluptatibus nemo obcaecati temporibus mollitia.</p>
+                                         <div class="conectord">
+                                            <div class="circulod"></div>
+                                         </div>
+                                 </div><!-- Aqui termina la seccion del item-->
+                              </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Espacio del portafolio-->
+
+    <section id="portafolio" class="portafolio">
+            <div class="contenido_seccion">
+                    <h2>PORTAFOLIO</h2>
+                    <div class="galeria">
+                            <div class="proyecto">
+                                <img src="img/Diseño corporativo.png" alt="">
+                                <div class="overlay">
+                                    <h3>Diseño Creativo</h3>
+                                    <p>Ideas Corporativas</p>
+                                </div>
+                            </div>
+                            <div class="proyecto">
+                                <img src="img/PROTOTIPO DE PERSONAJE.png" alt="">
+                                <div class="overlay">
+                                    <h3>Diseño Creativo</h3>
+                                    <p>Ilustración De Personajes</p>
+                                </div>
+                            </div>
+                            <div class="proyecto">
+                                <img src="img/Paisajismo.jpeg" alt="">
+                                <div class="overlay">
+                                    <h3>Diseño Creativo</h3>
+                                    <p>Fotografía</p>
+                                </div>
+                            </div>
+                            <div class="proyecto">
+                                <img src="img/Desarrollo de software.png" alt="">
+                                <div class="overlay">
+                                    <h3>Diseño Creativo</h3>
+                                    <p>Desarrollo De Software</p>
+                                </div>
+                            </div>
+                            <div class="proyecto">
+                                <img src="img/hardware.jpg" alt="">
+                                <div class="overlay">
+                                    <h3>Arquitectura De Hardware</h3>
+                                    <p>Ensambles de PC</p>
+                                </div>
+                            </div>
+                            <div class="proyecto">
+                                <img src="img/video.png" alt="">
+                                <div class="overlay">
+                                    <h3>Diseño Creativo</h3>
+                                    <p>Edicion de Video</p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+    </section>
+
+    <!--Aqui va la forma de contactarme-->
+
+    <section id="contacto" class="contacto">
+        <div class="contenido_seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--aqui colocamos el formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Numero Celular">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane-top"></i> <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <!--aqui colocare mi ubicación concreta-->
+                <div class="col">
+                    <img src="img/mp.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                Bogotá, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamame: 3125028685 / 3236085888     
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelopes-bulk"></i>
+                                Emails: likansmc@gmail.com / castellano_03@misena.edu.co
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--desplazamiento hacia arriba en el footer-->
+    <footer>
+        <a href="#inicio" class="subir">
+            <i class="fa-sharp fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/maccaromcr"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mauricio-castellano-rocha-92951788/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/AlquimistaCaste"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/mauricio.castellanosrocha/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/alquimista_castellano/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

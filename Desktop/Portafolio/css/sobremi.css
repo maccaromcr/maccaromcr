@@ -1,0 +1,140 @@
+/*estilo sobre mi sección*/
+
+.sobremi{
+
+    background-color: #252A2E;
+    color: #FFFFFF;
+    padding: 50px 20px;
+}
+.sobremi .contenido_seccion{
+
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2{
+
+    font-size: 46px;
+    font-family: 'Rightteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremi .contenido_seccion p{
+
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremi .contenido_seccion p span{
+
+    color: #bd7a0e;
+    font-weight: bold;
+
+}
+.sobremi .fila{
+    display: flex;
+}
+
+.sobremi .fila .col{
+
+    width: 50%;
+}
+
+.sobremi .fila .col h3{
+
+    font-size: 30px;
+    font-family: 'Rightteous';
+    margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul{
+
+    list-style: none;
+}
+
+.sobremi .fila .col ul li{
+
+    margin: 12px 0;
+
+}
+
+.sobremi .fila .col ul li strong{
+
+    display: inline-block;
+    color: #bd7a0e;
+    width: 130px;
+}
+
+.sobremi .fila .col ul li span{
+
+    background-color:#0e191f9c;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.sobremi .fila .col .contenedor_intereses{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contenedor_intereses .interes{
+
+    width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius:  12px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+
+}
+.sobremi .fila .col .contenedor_intereses .interes:hover{
+    background-color:#bd7a0e;
+}
+
+.sobremi .fila .col .contenedor_intereses .interes i{
+
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sobremi button{
+
+    cursor: pointer;
+    background-color: transparent;
+    border:  2px solid #FFFFFF;
+    width: fit-content;
+    display: block;
+    margin:2px auto;
+    padding: 10 px 22px;
+    font-size: 16px ;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+}
+
+.sobremi button .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #bd7a0e;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremi button:hover .overlay{
+
+    width: 100%;
+}
+
+

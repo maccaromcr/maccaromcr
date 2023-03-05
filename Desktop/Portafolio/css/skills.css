@@ -1,0 +1,256 @@
+/*css para skills tecnicas y profesionales*/
+
+.skills{
+
+    background-color:#252A2E;
+    color: #FFFFFF;
+    padding: 50px 20px;
+}
+.skills .contenido_seccion{
+
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2{
+
+    font-size: 46px;
+    font-family: 'Rightteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skills .fila{
+
+    display: flex;
+}
+
+.skills .fila .col{
+
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.skills .skill .barra_skills{
+
+    height: 8px;
+    width: 80%;
+    background-color: #151713;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progreso{
+
+    background-color: #bd7a0e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+
+.skills .skill .barra_skills span{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #f444d6b0;
+    border-radius: 60px;
+    line-height: 30px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 16px;
+}
+/*animacion skills tecnicas*/
+.skills .skill .javascript{
+    width: 0%;
+    animation: 3s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width:26%;}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 3s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width:75%;}
+}
+
+.skills .skill .sql{
+    width: 0%;
+    animation: 3s sql forwards;
+}
+@keyframes sql {
+    0%{width: 0%;}
+    100%{width:54%;}
+}
+
+.skills .skill .java{
+    width: 0%;
+    animation: 3s java forwards;
+}
+@keyframes java {
+    0%{width: 0%;}
+    100%{width:38%;}
+}
+
+.skills .skill .phyton{
+    width: 0%;
+    animation: 3s phyton forwards;
+}
+@keyframes phyton {
+    0%{width: 0%;}
+    100%{width:12%;}
+}
+
+.skills .skill .ilustraitor{
+    width: 0%;
+    animation: 3s ilustraitor forwards;
+}
+@keyframes ilustraitor {
+    0%{width: 0%;}
+    100%{width:80%;}
+}
+
+.skills .skill .coreldraw{
+    width: 0%;
+    animation: 3s coreldraw forwards;
+}
+@keyframes coreldraw {
+    0%{width: 0%;}
+    100%{width:70%;}
+}
+
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 3s photoshop forwards;
+}
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width:30%;}
+}
+
+.skills .skill .adobexd{
+    width: 0%;
+    animation: 3s adobexd forwards;
+}
+@keyframes adobexd {
+    0%{width: 0%;}
+    100%{width:50%;}
+}
+
+.skills .skill .animate{
+    width: 0%;
+    animation: 3s animate forwards;
+}
+@keyframes animate {
+    0%{width: 0%;}
+    100%{width:25%;}
+}
+
+.skills .skill .blender{
+    width: 0%;
+    animation: 3s blender forwards;
+}
+@keyframes blender {
+    0%{width: 0%;}
+    100%{width:25%;}
+}
+
+.skills .skill .git{
+    width: 0%;
+    animation: 3s git forwards;
+}
+@keyframes git {
+    0%{width: 0%;}
+    100%{width:25%;}
+}
+
+.skills .skill .clipstudio{
+    width: 0%;
+    animation: 3s clipstudio forwards;
+}
+@keyframes clipstudio {
+    0%{width: 0%;}
+    100%{width:40%;}
+}
+
+.skills .skill .wordpress{
+    width: 0%;
+    animation: 3s wordpress forwards;
+}
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width:78%;}
+}
+
+/*animacion skill profesionales*/
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 3s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width:92%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 3s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width:75%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 3s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width:94%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 3s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width:80%;}
+}
+
+.skills .skill .proyect{
+    width: 0%;
+    animation: 3s proyect forwards;
+}
+@keyframes proyect {
+    0%{width: 0%;}
+    100%{width:82%;}
+}
+
+.skills .skill .cumplimiento{
+    width: 0%;
+    animation: 3s cumplimiento forwards;
+}
+@keyframes cumplimiento {
+    0%{width: 0%;}
+    100%{width:82%;}
+}
